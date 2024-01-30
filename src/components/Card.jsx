@@ -7,12 +7,7 @@ class Card extends Component {
   //state = {  }
   render() {
     return (
-      <div
-        className="weather-card section"
-        style="background-image: url('./images/loadingBacground.png');"
-        id="cardBackground"
-      >
-        <Spinner />
+      <div className="weather-card section" id="cardBackground">
         <CardTop />
         <CardBottom />
       </div>

@@ -6,11 +6,11 @@ class Main extends Component {
   state = {};
   render() {
     return (
-      <>
-        <h1>Weather App</h1>
+      <div>
+        <h1 className="sub-header">Weather App</h1>
         <SearchBox />
         <Card />
-      </>
+      </div>
     );
   }
 }
