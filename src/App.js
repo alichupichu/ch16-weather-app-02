@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./App.scss";
+import "./App.css";
 import Spinner from "./components/Spinner";
 import Main from "./components/Main";
 
