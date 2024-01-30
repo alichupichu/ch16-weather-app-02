@@ -3,6 +3,8 @@ import Card from "./Card";
 import Spinner from "./Spinner";
 
 class Location extends Component {
+  state = {};
+
   async componentDidMount() {
     const { data } = await axios.get(
       `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=e135612bb4f8e46add41bdebe1c186ab`

@@ -43,12 +43,11 @@ body {
 .sub-header {
   background-color: #149edc;
   padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-size: 1.25rem;
   color: #ffffff;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .weather-title {
@@ -69,8 +68,6 @@ body {
 }
 
 .forecast-card {
-  display: flex;
-  justify-content: center;
   position: absolute;
   background-color: rgba(58, 51, 53, 0.8862745098);
 }
@@ -85,16 +82,12 @@ body {
   position: relative;
 }
 .daily-forecast-card .card-top {
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 .daily-forecast-card .card-top .space {
   width: 5px;
 }
 .daily-forecast-card .card-bottom {
-  display: flex;
-  align-items: flex-start;
   justify-content: space-evenly;
   padding: 5px;
 }

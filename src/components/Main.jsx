@@ -3,7 +3,7 @@ import SearchBox from "./SearchBox";
 import Card from "./Card";
 
 class Main extends Component {
-  state = {};
+  //state = {};
   render() {
     return (
       <div>

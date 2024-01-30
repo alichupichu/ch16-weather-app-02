@@ -15,9 +15,6 @@ class CardBottom extends Component {
             -4°C
           </div>
         </div>
-        <div className="description" id="todayDescriptionRoot">
-          Light Snow
-        </div>
       </div>
     );
   }

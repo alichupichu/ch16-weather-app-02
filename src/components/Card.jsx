@@ -10,6 +10,9 @@ class Card extends Component {
       <div className="weather-card section" id="cardBackground">
         <CardTop />
         <CardBottom />
+        <div className="description" id="todayDescriptionRoot">
+          Light Snow
+        </div>
       </div>
     );
   }
